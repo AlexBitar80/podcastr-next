@@ -1,13 +1,22 @@
 {
-  "extends" : [
+  "extends": [
     "@lukemorales"
   ],
-  "rules" : {
-    "no-console" : "off",
+  "rules": {
+    "no-console": "off",
     "react/destructuring-assignment": "off",
     "radar/prefer-immediate-return": "off",
     "jsx-a11y/control-has-associated-label": "off",
     "react/self-closing-comp": "off",
-    "arrow-body-style": "off"
+    "arrow-body-style": "off",
+    "jsx-a11y/media-has-caption": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "arrowParens": "avoid"
+      }
+    ]
   }
 }
