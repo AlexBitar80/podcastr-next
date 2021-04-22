@@ -4,8 +4,10 @@ type Episode = {
   title: string;
   thumbnail: string;
   members: string;
-  duration: number;
-  url: string;
+  file: {
+    duration: number;
+    url: string;
+  };
 };
 
 type PlayerContextData = {
