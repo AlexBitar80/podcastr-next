@@ -4,11 +4,13 @@
   ],
   "rules": {
     "no-console": "off",
+    "radar/cognitive-complexity": "off",
     "react/destructuring-assignment": "off",
     "radar/prefer-immediate-return": "off",
     "jsx-a11y/control-has-associated-label": "off",
     "react/self-closing-comp": "off",
     "arrow-body-style": "off",
+    "no-useless-return": "off",
     "jsx-a11y/media-has-caption": "off",
     "prettier/prettier": [
       "error",
