@@ -26,7 +26,7 @@
   footer {
     align-self: stretch;
 
-    &.empty {
+    &.empty .progress {
       opacity: 0.5;
     }
   }
@@ -103,6 +103,8 @@
   margin-top: 2.5rem;
   gap: 1.5rem;
 
+
+
   button {
     background: transparent;
     font-size: 0;
@@ -112,6 +114,15 @@
 
     &:disabled {
       cursor: default;
+      opacity: 0.5;
+    }
+
+    &.isActive {
+      filter: invert(0.35) sepia(1) saturate(3) hue-rotate(100deg)
+    }
+
+    &.isActive:hover {
+      filter: brightness(0.6) invert(0.35) sepia(1) saturate(3) hue-rotate(100deg)
     }
 
     &:hover:not(:disabled) {
